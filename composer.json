@@ -1,0 +1,22 @@
+{
+  "type": "project",
+  "authors": [
+    {
+      "name": "Roberto Gallea",
+      "email": "write@robertogallea.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "robertogallea\\AdventOfCode2021\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
